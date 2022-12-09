@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ScrollView
+       android:background="#EE5839"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/cgpa_calculator"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:textSize="40sp"
+               android:textColor="@color/white"/>
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/et1"
+               android:textSize="20sp"
+               android:textColorHint="@color/white"
+               android:hint="@string/enter_course_cradit"
+
+              />
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/et2"
+               android:textSize="20sp"
+               android:textColorHint="@color/white"
+               android:hint="@string/enter_crouse_grade"
+               />
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:id="@+id/bt"
+               android:layout_gravity="center"
+               android:backgroundTint="#E3A092"
+               android:text="@string/add_courses"/>
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/bt2"
+               android:layout_gravity="center"
+               android:backgroundTint="#E3A092"
+               android:text="@string/see_Cgpa"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/tv"
+               android:textSize="40sp"
+               android:gravity="center"
+               android:layout_marginVertical="40dp"
+               android:textColorHint="@color/white"
+               android:hint="@string/here_is_your_CGPA"/>
+
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:id="@+id/bt3"
+               android:layout_gravity="center"
+               android:backgroundTint="#E3A092"
+               android:text="@string/reset"/>
+
+
+
+       </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
