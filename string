@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CGPA Calculator</string>
+    <string name="cgpa_calculator">CGPA Calculator</string>
+    <string name="enter_course_cradit">Enter Course cradit</string>
+    <string name="enter_crouse_grade">Enter Crouse Grade</string>
+    <string name="add_courses">Add courses</string>
+    <string name="see_Cgpa">See CGPA</string>
+    <string name="here_is_your_CGPA">Here is your CGPA</string>
+    <string name="reset">Reset</string>
+    <string name="cgpa">Your CGPA</string>
+
+</resources>
